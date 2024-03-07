@@ -1,0 +1,6 @@
+{
+
+    "appService.zipIgnorePattern": ["*/.*", "*/*"],  
+    "appService.deploySubpath": "ASSESSOR",
+    "azureAutomation.directory.basePath": "c:\\Users\\mars"
+}

@@ -1,0 +1,3 @@
+C:\Users\mars\source\repos\ASSESS\obj\Release\ASSESSOR.njsproj.AssemblyReference.cache
+C:\Users\mars\source\repos\ASSESS\obj\Release\ASSESSOR.njsproj.CoreCompileInputs.cache
+C:\Users\mars\source\repos\ASSESS\bin\Microsoft.NodejsTools.WebRole.dll

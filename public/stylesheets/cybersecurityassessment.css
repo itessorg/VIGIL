@@ -1,0 +1,330 @@
+/* cybersecurityassessment.css */  
+body {  
+    background: linear-gradient(180deg, #335099 0%, #040A1F 100%);  
+    color: #fff;  
+    margin: 0;  
+    padding: 20px;  
+    font-family: Arial, sans-serif;  
+    height: 100vh; /* Keeps the body to the viewport height */  
+    overflow: hidden; /* Prevents scrolling on the body */  
+}  
+  
+header {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    padding: 20px 0;  
+}  
+  
+.logo {  
+    display: flex;  
+    align-items: center;  
+    margin-top: 2.36rem;  
+    margin-left: 7.38rem;  
+}  
+  
+.profile {  
+    position: relative;  
+    display: flex;  
+    align-items: center;  
+    margin-top: 3.94rem;  
+    margin-right: 7.64rem;  
+}  
+  
+.profile svg {  
+    width: 2.10938rem;  
+    height: 2.8125rem;  
+    opacity: 0.8;  
+    flex-shrink: 0;  
+}  
+  
+.user-name {  
+    position: absolute;  
+    right: 100%;  
+    margin-right: 3rem;  
+    color: rgba(255, 255, 255, 0.60); /* Less white color */  
+    font-family: 'Inter', sans-serif;  
+    font-size: 0.9rem; /* Slightly smaller font size */  
+    font-weight: 400;  
+    white-space: nowrap;  
+}  
+  
+#currentPoliciesStatus {  
+    color: rgba(255, 255, 255, 0.60); /* Less white color */  
+    font-family: 'Inter', sans-serif;  
+    font-size: 2.25rem;  
+    font-weight: 400;  
+    width: 24.375rem;  
+    height: 3rem;  
+    flex-shrink: 0;  
+    margin-top: 0.13rem;  
+    margin-bottom: 2.56rem;  
+    margin-left: auto;  
+    margin-right: auto;  
+    text-align: center;  
+}  
+  
+/* Style for the policies container */  
+#policies-container {  
+    max-height: 60vh;  
+    overflow-y: auto;  
+    width: 75%; /* Adjusts container width */  
+    margin: 1rem auto 2.56rem auto; /* Uniform margin around container */  
+    padding: 1rem;  
+    border: 1px solid rgba(255, 255, 255, 0.18); /* Softer border for glass effect */  
+    background: rgba(255, 255, 255, 0.1); /* Slightly transparent background */  
+    -webkit-backdrop-filter: blur(10px); /* For Safari 9+, iOS Safari 9+ */  
+    backdrop-filter: blur(10px); /* Creates the frosted glass effect */  
+    border-radius: 10px; /* Rounded corners for a modern look */  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Deeper shadow for added depth */  
+    display: flex; /* Use flexbox to center children */  
+    flex-direction: column; /* Stack children vertically */  
+    align-items: center; /* Center children horizontally */  
+}  
+  
+/* Style for each policy control container */  
+.cybersecurity-policy {  
+    width: 90%; /* Adjust width as needed to fit within the policies container */  
+    margin: 1rem auto;  
+    background: rgba(0, 0, 0, 0.4);  
+    border-radius: 2.1875rem;  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);  
+    padding: 1rem;  
+    display: flex;  
+    flex-direction: row; /* Stack items horizotnally */  
+    align-items: flex-start; /* Align items to the start of the flex container */  
+    justify-content: space-between; /* Add this line to space out the title and the list */  
+
+}  
+  
+/* cybersecurityassessment.css */  
+body {  
+    background: linear-gradient(180deg, #335099 0%, #040A1F 100%);  
+    color: #fff;  
+    margin: 0;  
+    padding: 20px;  
+    font-family: Arial, sans-serif;  
+    height: 100vh; /* Keeps the body to the viewport height */  
+    overflow: hidden; /* Prevents scrolling on the body */  
+}  
+  
+header {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    padding: 5px 0;  
+}  
+  
+.logo {  
+    display: flex;  
+    align-items: center;  
+    margin-top: 2.36rem;  
+    margin-left: 7.38rem;  
+}  
+  
+.profile {  
+    position: relative;  
+    display: flex;  
+    align-items: center;  
+    margin-top: 3.94rem;  
+    margin-right: 7.64rem;  
+}  
+  
+.profile svg {  
+    width: 2.10938rem;  
+    height: 2.8125rem;  
+    opacity: 0.8;  
+    flex-shrink: 0;  
+}  
+  
+.user-name {  
+    position: absolute;  
+    right: 100%;  
+    margin-right: 3rem;  
+    color: rgba(255, 255, 255, 0.60); /* Less white color */  
+    font-family: 'Inter', sans-serif;  
+    font-size: 0.9rem; /* Slightly smaller font size */  
+    font-weight: 400;  
+    white-space: nowrap;  
+}  
+  
+#currentPoliciesStatus {  
+    color: rgba(255, 255, 255, 0.60); /* Less white color */  
+    font-family: 'Inter', sans-serif;  
+    font-size: 2.25rem;  
+    font-weight: 400;  
+    width: 24.375rem;  
+    height: 3rem;  
+    flex-shrink: 0;  
+    margin-top: 0.13rem;  
+    margin-bottom: 1.32rem;  
+    margin-left: auto;  
+    margin-right: auto;  
+    text-align: center;  
+}  
+  
+/* Style for the policies container */  
+#policies-container {  
+    max-height: 70vh;  
+    overflow-y: auto;  
+    width: 80%; /* Adjusts container width */  
+    margin: 1rem auto 2.56rem auto; /* Uniform margin around container */  
+    padding: 1rem;  
+    border: 1px solid rgba(255, 255, 255, 0.18); /* Softer border for glass effect */  
+    background: rgba(255, 255, 255, 0.1); /* Slightly transparent background */  
+    -webkit-backdrop-filter: blur(10px); /* For Safari 9+, iOS Safari 9+ */  
+    backdrop-filter: blur(10px); /* Creates the frosted glass effect */  
+    border-radius: 10px; /* Rounded corners for a modern look */  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Deeper shadow for added depth */  
+    display: flex; /* Use flexbox to center children */  
+    flex-direction: column; /* Stack children vertically */  
+    align-items: center; /* Center children horizontally */  
+}  
+  
+
+
+/* Style for each policy control container */  
+.cybersecurity-policy {  
+    width: 93%; /* Slightly reduced container width */  
+    margin: 1rem auto; /* Margin for top and bottom */  
+    padding: 0.8rem; /* Reduced padding for a smaller height */  
+    background: rgba(0, 0, 0, 0.4);  
+    border-radius: 2.1875rem;  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);  
+    display: flex;  
+    flex-direction: row; /* Stack items horizontally */  
+    align-items: center; /* Center items vertically */  
+    justify-content: space-between; /* Space out the title and the list */  
+}  
+  
+/* Style for the policy title */  
+.cybersecurity-policy h2 {  
+    flex: 0 0 20%; /* Flex-grow: 0, Flex-shrink: 0, Flex-basis: 20% */  
+    display: flex;  
+    flex-direction: column; /* Stack children vertically */  
+    justify-content: center; /* Center children horizontally */  
+    align-items: center; /* Center children vertically */  
+    text-align: center; /* Center the text */  
+    color: #bbb; /* Lighter text color */  
+    font-weight: bold; /* Keep text bold as per your preference */  
+    font-size: 1.1rem; /* Reduced font size for a smaller look */  
+}  
+  
+/* Adjust the policy list container */  
+.cybersecurity-policy ul {  
+    flex-grow: 1; /* Allow the list to fill the space */  
+    padding: 0; /* Remove any default padding */  
+    margin: auto; /* Center the list including its margins */  
+    list-style-type: none; /* Remove bullet points */  
+    display: flex; /* Make the list a flex container */  
+    flex-wrap: wrap; /* Allow list items to wrap */  
+    justify-content: flex-start; /* Align list items to the start */  
+    align-items: center; /* Center list items vertically */  
+}  
+  
+/* Style for policy list items */  
+.cybersecurity-policy ul li {  
+    background: rgba(255, 255, 255, 0.1);  
+    padding: 0.4rem 0.5rem; /* Slightly reduced padding for a smaller look */  
+    border-radius: 0.4rem;  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);  
+    font-size: 0.8rem; /* Reduced font size for a smaller look */  
+    color: #ddd;  
+    margin-right: 0.5rem; /* Add right margin for spacing between items */  
+    margin-bottom: 0.5rem; /* Add bottom margin for spacing between rows */ 
+    margin-top: 0.5rem; /* Add top margin for vertical centering */  
+    display: inline-flex; /* Use inline-flex to allow wrapping */  
+    align-items: center;  
+}  
+
+
+/* Generic style for policy list */  
+.cybersecurity-policy h2::after {  
+    content: ''; /* This is necessary for the pseudo-element to work */  
+    display: inline-block; /* Make the pseudo-element an inline block */  
+    height: 100%; /* Full height of the title */  
+    width: 2px; /* Width of the vertical line */  
+    background-color: #000000; /* Color of the vertical line */  
+    margin-left: 10px; /* Space between the title and the vertical line */  
+    vertical-align: middle; /* Align the line with the middle of the title */  
+} 
+
+/* Clear floats after each cybersecurity-policy division */  
+.cybersecurity-policy:after {  
+    content: '';  
+    display: table;  
+    clear: both;  
+}  
+/* Style for policy list items */  
+.cybersecurity-policy ul li.policy-item {  
+    background: rgba(255, 255, 255, 0.1);  
+    padding: 0.4rem 0.5rem;  
+    border-radius: 0.4rem;  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);  
+    font-size: 1rem;  
+    color: #ddd;  
+    margin-right: 0.5rem;  
+    margin-bottom: 0.5rem;  
+    display: flex;  
+    align-items: center;  
+    position: relative; /* For absolute positioning of colorIndicator */  
+}  
+  
+/* Style for the colored visual indicator */  
+.color-indicator {  
+    height: 10px;  
+    width: 10px;  
+    border-radius: 50%; /* Makes it circular */  
+    display: inline-block;  
+    margin-right: 8px; /* Space between the indicator and the text */  
+    border: 1px solid #FFFFFF; /* White border, adjust width as needed */  
+
+}  
+  
+/* Background color styles for the colored visual indicator */  
+.green-light {  
+    background-color: #32CD32; /* More vibrant green */  
+}  
+  
+.red-light {  
+    background-color: #FF4500; /* More vibrant red */  
+}  
+  
+.yellow-light {  
+    background-color: #FFD700; /* More vibrant yellow */  
+}  
+  
+.default-light {  
+    background-color: #808080; /* More vibrant grey */  
+} 
+#error-message {  
+    color: #ff4d4d;  
+    text-align: center;  
+    width: 100%;  
+    margin-top: 0rem;  
+    font-size: 0.9rem;  
+}  
+  
+footer {  
+    margin-top: -1rem; /* Example of a negative margin. Adjust accordingly. */  
+    color: #aaaaaa;  
+    text-align: center;  
+    padding: 0px 0;  
+}  
+
+
+
+.permission-popup {  
+    display: none; /* Move the display property to CSS */  
+    position: fixed;  
+    bottom: 20px;  
+    right: 20px;  
+    padding: 20px;  
+    border-radius: 5px;  
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);  
+    z-index: 1000;  
+    /* Use the new class for background color */  
+    background-color: #4CAF50;;  
+}
+
+

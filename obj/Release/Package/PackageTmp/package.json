@@ -1,0 +1,35 @@
+{
+  "name": "assessor",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "description": "ASSESSOR",
+  "author": "Mohamed Sekrane",
+  "dependencies": {
+    "@azure/msal-node": "^2.6.4",
+    "axios": "^1.6.7",
+    "body-parser": "^1.15.0",
+    "chalk": "^5.3.0",
+    "colors": "^1.4.0",
+    "cookie-parser": "^1.4.0",
+    "debug": "^2.2.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "express-session": "^1.18.0",
+    "morgan": "^1.7.0",
+    "node-powershell": "^5.0.1",
+    "passport": "^0.7.0",
+    "passport-azure-ad": "^4.3.5",
+    "pug": "^3.0.2",
+    "serve-favicon": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0"
+  },
+  "eslintConfig": {},
+  "main": "server.js",
+  "keywords": [],
+  "license": "ISC"
+}

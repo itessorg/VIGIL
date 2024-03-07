@@ -1,0 +1,95 @@
+body {
+    background: linear-gradient(180deg, #335099 0%, #040A1F 100%);
+    background-blend-mode: difference;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;  /* Adjust to better control initial content position */
+    position: relative;
+}
+
+#logoContainer, #msLogoContainer {
+    position: absolute;
+    top: 0;  
+    flex-shrink: 0;
+}
+
+#logoContainer {
+    width: 253px;
+    height: 94px;
+    opacity: 0.8;
+    left: 0;  
+    margin-top: 99px;
+    margin-left: 128px;
+}
+
+#logoContainer svg {
+    width: 100%;
+    height: auto;
+}
+
+#msLogoContainer {
+    width: 263px;
+    height: 56px;
+    right: 0;  
+    margin-top: 119px;
+    margin-right: 142px;
+}
+
+#msLogoContainer img {
+    width: 100%;
+    height: auto;
+}
+
+#connectText {
+    color: rgba(255, 255, 255, 0.35);
+    font-family: 'Roboto', sans-serif;
+    font-size: 5rem; /* Updated font size as per previous instruction */
+    font-weight: 800;
+    text-align: center; /* Ensures text is centered */
+    justify-content: center; /* Center content for flexbox */
+    display: flex; /* Make this a flex container */
+    align-items: center; /* Centers the text vertically */
+    height: 8.25rem;
+    line-height: 8.25rem; /* Adjusted line-height for visual centering */
+    flex-shrink: 0;
+    margin-top: 22.31rem; /* Top margin as previously set */
+    margin-bottom: 0.88rem; /* Adjusted to set exact space between text boxes */
+    width: 100%; /* Use full width to center text */
+}
+
+#assessmentText {
+    color: rgba(255, 255, 255, 0.40);
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center; /* Ensures text is centered */
+    justify-content: center; /* Center content for a flexbox */
+    display: flex; /* Make this a flex container */
+    align-items: center; /* Centers the text vertically */
+    height: 2.625rem;
+    line-height: 2.625rem; /* Adjusted line-height for visual needs */
+    flex-shrink: 0;
+    margin-top: 0; /* Now set to 0 since the spacing is handled by #connectText's margin-bottom */
+    width: 100%; /* Use full width to center text */
+}
+
+#loginButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 21.95881rem; /* Adjust to your specific needs */
+    height: 4.1875rem; /* Adjust to your specific needs */
+    background-color: transparent; /* Show the PNG without background */
+    border: none;
+    margin-top: 3.44rem; /* Adjusted to set exact space between text boxes */
+}
+
+#loginButton img {
+    max-width: 100%;
+    height: auto;
+}
